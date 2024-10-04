@@ -92,7 +92,7 @@ const App = () => {
       socket.off('gameOver');
 
     };
-  }, []);
+  });
 
 
   // Create a new room
