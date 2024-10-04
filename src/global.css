@@ -1,0 +1,18 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    width: 100%;
+  }
+
+  body {
+    background: linear-gradient(to bottom, #000, #333) url("../public/images/japeg.jpg");
+    background-size: cover;
+    background-attachment: fixed; /* For a parallax effect */
+    overflow: hidden;
+  }
