@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import * as Styled from "./styles";
 import StartingPage from './components/StartingPage';
 
-const socket = io('http://localhost:3001');
+const socket = io('https://axisbluffers-server.onrender.com');
 
 const App = () => {
   const [name, setName] = useState('');
