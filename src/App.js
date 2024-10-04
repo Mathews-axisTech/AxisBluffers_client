@@ -54,7 +54,7 @@ const App = () => {
       setCurrentPlayer(playerId);
       setCurrentFacts(facts);
       setHasGuessed(false);
-      setTimeLeft(70);
+      setTimeLeft(20);
       setRadioFactIndex(null);
       console.log(`Player ${playerId} facts:`, facts);
 
